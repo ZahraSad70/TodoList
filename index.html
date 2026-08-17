@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/fontAwsome/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="backdrop hidden">
+            <div class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="header-text">
+                            <i class="fa fa-pencil"></i>
+                            <p>
+                                Edit Task
+                                <span>Make changes to your task</span>
+                            </p>
+                        </div>
+                        <button class="close-modal">&times;</button>
+                    </div>
+                    <div class="box-edit">
+                        <input type="text" class="edit-input">
+                    </div>
+                    <div class="box-btn">
+                        <button class="btn-cancel">Cancel</button>
+                        <button class="btn-edit">Save Changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layout">
+            <div class="header">
+                <div class="form-container">
+                    <div class="logo">
+                        <img src="/src/img/clipboard1.png" alt="">
+                        <div class="logo-text">
+                            <span class="title">My Task</span>
+                            <span class="desc">Stay organized,get things done!</span>
+                        </div>
+                    </div>
+                    <form class="todo-form">
+                        <div class="add-box">
+                            <i class="fa fa-plus"></i>
+                            <input type="text" class="todo-input" placeholder="Add new task...">
+                        </div>
+                        <button class="add-todo" type="submit">
+                            + <span>Add Task</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="main">
+                <div class="todo-container">
+                    <div class="filter-todo">
+                        <span data-filter="all" id="1" class="filter-default filter-item all">
+                            <i class="fa fa-bars"></i>
+                            All
+                        </span>
+                        <span data-filter="completed" id="2" class="filter-item completed">
+                            <i class="fa fa-check-circle "></i>Completed
+                        </span>
+                        <span data-filter="uncompleted" id="3" class="filter-item uncompleted">
+                            <i class="fa fa-clock-o "></i>UnCompleted
+                        </span>
+                    </div>
+                    <ul class="todolist">
+                        <!-- <li class="todo-item">
+                    <p class="todo-title">todo1</p>
+                    <span class="todo-createdAt">1402/02/28</span>
+                    <button class="todo-check">check</button>
+                    <button class="todo-delete">delete</button>
+                </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/src/js/main.js"></script>
+    <script src="/src/js/modal.js"></script>
+</body>
+
+</html>
