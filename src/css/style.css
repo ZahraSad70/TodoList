@@ -1,6 +1,6 @@
 @font-face {
     font-family: Nunito;
-    src: url('/src/font/Nunito-SemiBold.ttf');
+    src: url('src/font/Nunito-SemiBold.ttf');
 }
 
 html,
@@ -10,8 +10,7 @@ body {
     padding: 0;
     margin: 0;
     backdrop-filter: initial;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.55),
-            rgba(255, 255, 255, 0.55)), url(/src/img/back.png);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url(src/img/back.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

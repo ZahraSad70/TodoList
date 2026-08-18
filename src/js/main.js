@@ -49,7 +49,7 @@ function CreatedTodo(todos) {
             `
         <ul class="todolist">
                 <div class="empty">
-                    <img src="/src/img/empty-clipboard.png" alt="">
+                    <img src="src/img/empty-clipboard.webp" alt="">
                     <div class="empty-text">
                         <p>No task yet!</p>
                         <span>Add a new task to get started.</span>
