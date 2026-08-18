@@ -9,7 +9,7 @@ body {
     padding: 0;
     margin: 0;
     backdrop-filter: initial;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url(src/img/back.webp);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url(../img/back.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
